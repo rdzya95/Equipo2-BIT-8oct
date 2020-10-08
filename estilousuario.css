@@ -72,10 +72,21 @@ body {
     position: absolute;
     transform: translate(-50%, 350%);
     box-sizing: border-box;
+    border-spacing: 0;
   }
   th, td{
     width: 200px;
     text-align: center;
     border: 1px solid #000;
-    border-spacing: 0;
+    
+  }
+
+  th{
+    background-color: black;
+    color: white;
+  }
+
+  td{
+    background-color: #05498A;
+    color: black;
   }
